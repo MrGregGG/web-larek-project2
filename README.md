@@ -22,16 +22,12 @@
 npm ci
 ```
 
-Создать `.env` из `.env.example` (если файл ещё не создан):
-
-```powershell
-Copy-Item .env.example .env
-```
-
 Запустить проект:
 
 ```bash
-npm start -- --port 8080
+npm start
 ```
+
+Файл .env создаётся автоматически при запуске проекта, если он ещё не существует.
 
 Открыть в браузере: http://localhost:8080/
